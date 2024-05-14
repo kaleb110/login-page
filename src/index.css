@@ -1,0 +1,70 @@
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+}
+
+@layer components {
+  .max-container {
+    max-width: 1440px;
+    margin: 0 auto;
+  }
+
+  .input {
+    /* @apply sm:flex-1 max-sm:w-full text-base leading-normal text-slate-600 pl-5 max-sm:p-5 outline-none sm:border-none border max-sm:border-slate-600 max-sm:rounded-full; */
+
+    @apply w-full text-slate-600 leading-normal
+    border-2 outline-none border-blue-500 px-6 py-2 bg-black rounded-full placeholder:text-center placeholder:text-slate-500
+  }
+
+  .inputLogin {
+        @apply w-[50%] text-slate-600 leading-normal border-2 outline-none border-green-500 px-6 py-2 bg-black rounded-full placeholder:text-center placeholder:text-white
+  }
+}
+
+@layer utilities {
+  .padding {
+    @apply  p-6 md:py-8 md:px-6;
+  }
+
+  .padding-x {
+    @apply sm:px-16 px-8;
+  }
+
+  .padding-y {
+    @apply sm:py-10 py-8;
+  }
+
+  .padding-l {
+    @apply sm:pl-16 pl-8;
+  }
+
+  .padding-r {
+    @apply sm:pr-16 pr-8;
+  }
+
+  .padding-t {
+    @apply sm:pt-24 pt-12;
+  }
+
+  .padding-b {
+    @apply sm:pb-24 pb-12;
+  }
+
+  .info-text {
+    @apply font-montserrat text-slate-gray text-lg leading-7;
+  }
+
+  .bg-gradient {
+            background: rgb(2, 0, 36);
+            background: linear-gradient(90deg, rgba(2, 0, 36, 1) 0%, rgba(194, 16, 16, 1) 0%, rgba(52, 124, 149, 1) 68%, rgba(41, 132, 150, 1) 100%);
+  }
+
+  
+}
