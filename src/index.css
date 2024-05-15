@@ -17,14 +17,16 @@
   }
 
   .input {
-    /* @apply sm:flex-1 max-sm:w-full text-base leading-normal text-slate-600 pl-5 max-sm:p-5 outline-none sm:border-none border max-sm:border-slate-600 max-sm:rounded-full; */
 
-    @apply w-full text-slate-600 leading-normal
-    border-2 outline-none border-blue-500 px-6 py-2 bg-black rounded-full placeholder:text-center placeholder:text-slate-500
+    @apply w-full text-white lg:text-lg xl:text-xl leading-normal
+    border-2 outline-none border-blue-500 px-2 lg:px-8 xl:px-12
+     py-1 lg:py-3 xl:py-4 bg-black rounded-full 
+     lg:placeholder:text-xl xl:placeholder:text-2xl placeholder:text-center placeholder:text-slate-500
   }
 
   .inputLogin {
-        @apply w-[50%] text-slate-600 leading-normal border-2 outline-none border-green-500 px-6 py-2 bg-black rounded-full placeholder:text-center placeholder:text-white
+
+        @apply w-[50%] text-white leading-normal border-2 outline-none border-green-500 px-2 lg:px-8 xl:px-12 py-1 lg:py-2 xl:py-3 bg-black rounded-full text-xs lg:text-sm xl:text-lg
   }
 }
 
