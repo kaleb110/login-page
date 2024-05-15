@@ -1,8 +1,17 @@
-# React + Vite
+# LogIn Page
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+### [Live Site](https://kaleb110.github.io/login-page/)
 
-Currently, two official plugins are available:
+[![Screenshot-2024-05-15-224749.png](https://i.postimg.cc/kXcXpSQd/Screenshot-2024-05-15-224749.png)](https://postimg.cc/ykDHJkpf)
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Introduction
+This is a Log In page website which is made with these technologies:
+
+- reactjs is used as a javascript framework in this project which makes development much easier and efficent.
+
+- tailwind css is used for making css with less lines of code and for many amazing features that are not present in pure css.
+
+- vite is used as a built tool for building the app.
+
+Setup:
+- run ```npm i && npm run dev``` to start the development server
