@@ -2,8 +2,8 @@ import Hero from "./component/Hero";
 
 const App = () => {
   return (
-    <main className="">
-      <section className="max-container">
+    <main>
+      <section>
         <Hero />
       </section>
     </main>
