@@ -18,7 +18,7 @@ const Hero = () => (
             alt="Email Logo"
             width={18}
             height={18}
-            className="absolute left-6 top-[50%] translate-y-[-50%] "
+            className="absolute left-6 top-[50%] translate-y-[-50%]"
           />
           <input type="text" className="input" placeholder="Email" />
         </div>

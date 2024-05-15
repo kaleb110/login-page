@@ -19,7 +19,7 @@
   .input {
 
     @apply w-full text-white lg:text-lg xl:text-xl leading-normal
-    border-2 outline-none border-blue-500 px-2 lg:px-8 xl:px-12
+    border-2 outline-none border-blue-500 px-12 lg:px-16 xl:px-20
      py-1 lg:py-3 xl:py-4 bg-black rounded-full 
      lg:placeholder:text-xl xl:placeholder:text-2xl placeholder:text-center placeholder:text-slate-500
   }
