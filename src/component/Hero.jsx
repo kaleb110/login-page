@@ -58,13 +58,13 @@ const Hero = () => (
             Or Sign Up Using
           </p>
           <div className="flex justify-center items-center gap-8 lg:gap-14">
-            <a href="#" className="hover:cursor-pointer">
+            <a href="#" className="text-white transition-[0.3] p-[6px] rounded-full hover:bg-slate-800 hover:scale-125 hover:cursor-pointer">
               <img src={facebook} alt="Facebook Logo" width={28} height={28} />
             </a>
-            <a href="#" className="hover:cursor-pointer">
+            <a href="#" className="text-white transition-[0.3] p-[6px] rounded-full hover:bg-slate-800 hover:scale-125 hover:cursor-pointer">
               <img src={twitter} alt="Twitter Logo" width={28} height={28} />
             </a>
-            <a href="#" className="hover:cursor-pointer">
+            <a href="#" className="text-white transition-[0.3] p-[6px] rounded-full hover:bg-slate-800 hover:scale-125 hover:cursor-pointer">
               <img src={linkedin} alt="Linkedin Logo" width={24} height={24} />
             </a>
           </div>
